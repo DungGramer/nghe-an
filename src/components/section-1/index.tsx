@@ -1,5 +1,3 @@
-import React from "react";
-
 const Section1 = () => {
   return (
     <div className='-mt-10 bg-white pt-44 pb-16 2xl:mt-0'>

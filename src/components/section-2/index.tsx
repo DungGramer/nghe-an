@@ -58,7 +58,7 @@ const AdventureCard = ({
                     <p className='align-middle text-xs leading-normal'>
                       <span>{country}</span>
                       <span className='text-hermes-teal mx-1 text-sm'>•</span>
-                      <span>{`${days} ngày, ${nights} đêm`}</span>
+                      <span>{`${days} - ${nights}`}</span>
                     </p>
                   </h4>
                   <h3 className='card__header mt-1 grow-0 text-base font-semibold leading-6 text-gray-900'>
@@ -84,48 +84,48 @@ const AdventureCards = () => {
   const cardsData = [
     {
       id: 457,
-      country: "Cửa Lò",
-      days: 3,
-      nights: 2,
-      title: "Thiên đường biển miền Trung",
-      price: "2.000.000 vnđ",
+      title: "Bánh mướt Thanh Phong",
+      days: '6:00',
+      nights: '10:00 sáng',
+      country: "Số 05 Hải Thượng Lãn Ông, thành phố Vinh, Nghệ An",
+      price: "15.000 - 20.000 VNĐ/đĩa",
       imageUrl:
-        "https://i1-dulich.vnecdn.net/2022/04/26/bien-Cua-Lo-Nghe-An-1225-1650971137.png?w=0&h=0&q=100&dpr=1&fit=crop&s=dsSTtfbRhadg1sRPsV91Dg",
+        "https://cdn.tgdd.vn/Files/2021/07/24/1370514/cach-lam-mon-banh-muot-nghe-an-nong-hoi-thom-lung-cuc-de-tai-nha-202206031344446283.jpg",
       tripLink: "/adventures/trips/romania",
     },
     {
       id: 455,
-      country: "Hang Mắt Rồng",
-      days: 2,
-      nights: 3,
-      title: "Kiệt tác điêu khắc của thiên nhiên",
-      price: "2.150.000 vnđ",
+      title: "Cá trích nướng",
+      days: '6:00',
+      nights: '22:00',
+      country: "Đền Cờn, Quỳnh Phương, Quỳnh Lưu, Nghệ An",
+      price: "2.000 VNĐ/con",
       imageUrl:
-        "https://i1-dulich.vnecdn.net/2022/04/26/Hang-Rong-xu-Nghe-Quynh-Luu-3924-1650971137.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=d25O1CdMjSiQJ_Rmrv2qgQ",
+        "https://statics.vinpearl.com/ca-trich-nuong-nghe-an-thumb_1632643053.jpg",
       tripLink: "/adventures/trips/oaxaca-gastro",
     },
     {
       id: 53,
-      country: "Phà Lài",
-      days: 2,
-      nights: 2,
-      title: "Nơi non sông giao hoà",
-      price: "2.420.000 vnđ",
+      country: "số 127 Phù Chí Kiên, thành phố Vinh, Nghệ An",
+      days: '6:00',
+      nights: '11:00 sáng',
+      title: "Súp lươn Nghệ An bà Hà",
+      price: "25.000 - 40.000 VNĐ/suất",
       imageUrl:
-        "https://i1-dulich.vnecdn.net/2022/04/26/du-lich-Nghe-An-1-2230-1650971137.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=IH_z-Gq_yhhM3YQ4oJXC0g",
+        "https://datafiles.nghean.gov.vn/nan-ubnd/1/quantritintuc20241/1638397366515396147.jpg",
       tripLink: "/adventures/trips/turkmenistan",
     },
     // Add more cards here as needed
   ];
 
   return (
-    <div className='-mt-10 bg-white py-12 pt-32 2xl:mt-0'>
+    <div className='bg-white py-12 2xl:mt-0'>
       <section className='flex flex-col justify-center gap-20'>
         <div className='lg:flex'>
           <div className='lg:grow' />
           <div className='text-center lg:px-20'>
             <h1 className='hermes-heading-big text-gray-900'>
-              Tạo nên những kỷ niệm khó quên
+              Ẩm thực xứ Nghệ
             </h1>
           </div>
           <div className='lg:border-px self-center border-0 lg:h-px lg:grow lg:border-t lg:border-gray-400' />

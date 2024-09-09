@@ -4,7 +4,7 @@ const Header = () => {
       <div className='nav-component nav-component--theme-light'>
         <div className='container-w-fixed'>
           <div className='flex w-full items-center justify-between py-4 md:py-8'>
-            <a className='md:flex-1' href='/adventures/'>
+            {/* <a className='md:flex-1' href='/adventures/'>
               <span className='sr-only'>Atlas Obscura Adventures</span>
               <img
                 className='hidden xl:block'
@@ -20,7 +20,7 @@ const Header = () => {
                 src='https://assets.atlasobscura.com/assets/hermes/aoa_logo_short-29de157b7ca975eae81c2b5f8ed156ca093a4e7157729c309c187162476ae698.svg'
                 alt='Logo'
               />
-            </a>{" "}
+            </a>{" "} */}
             <div data-controller='apparate' className='md:hidden'>
               <button
                 id='button__open-mobile-menu'
